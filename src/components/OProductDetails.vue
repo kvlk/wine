@@ -12,7 +12,7 @@ defineProps({
     <!-- [a-badge-sale] -->
 
     <!-- m-offer-box -->
-    
+
     <!-- a-badge-code -->
     <!-- a-icons -->
 
@@ -27,6 +27,6 @@ defineProps({
 
 <style>
 .o-product-details {
-  @apply py-2 lg:py-3 px-6;
+  @apply px-4 lg:px-7 py-10;
 }
 </style>
