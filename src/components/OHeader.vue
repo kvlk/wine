@@ -13,6 +13,8 @@ defineProps({
     
 //   },
 // })
+
+export default {}
 </script>
 
 <template>

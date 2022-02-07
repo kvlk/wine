@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from 'vue'
+import AHeading from './AHeading.vue'
+import MInfoName from './MInfoName.vue'
 
 defineProps({
   title: String
@@ -15,7 +17,7 @@ defineProps({
 
     <!-- a-badge-code -->
     <!-- a-icons -->
-
+    <MInfoName />
     <!-- m-info-name -->
     <!-- m-info-description -->
     <!-- a-button -->
