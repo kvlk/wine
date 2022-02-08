@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // spacing: {
-      //   '4.5': '28px',
-      // },
+      fontSize: {
+        '3xl-28': '28px',
+      }
     },
     screens: {
       // min-width
@@ -26,6 +26,7 @@ module.exports = {
         900: '#a73c31',
       },
       'blue': {
+        50: '#e5eaf0',
         400: '#496b9b',
         600: '#1a4b84',
       },
@@ -41,7 +42,10 @@ module.exports = {
         800: '#464544',
         900: '#252423',
       }
-    }
+    },
+    fontFamily: {
+      sans: ['system', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Segoe WP', 'Roboto', 'Ubuntu', 'Oxygen', 'Cantarell', 'Fira Sans', 'Helvetica Neue', 'Helvetica', 'Lucida Grande', 'Droid Sans', 'Tahoma', 'Microsoft Sans Serif', 'sans-serif'],
+    },
   },
   plugins: [],
 }

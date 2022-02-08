@@ -14,7 +14,7 @@ defineProps({
 
 <style lang="scss">
 .a-heading {
-  @apply tracking-wide font-bold text-gray-800;
+  @apply mb-1.5 tracking-wide font-bold text-gray-800;
 
   @at-root {
     h1#{&} {
@@ -24,7 +24,7 @@ defineProps({
       @apply text-4xl;
     }
     h3#{&} {
-      @apply text-3xl;
+      @apply text-lg lg:text-2xl xl:text-3xl-28;
     }
     h4#{&} {
       @apply text-2xl;

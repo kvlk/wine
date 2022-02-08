@@ -10,6 +10,6 @@ import { ref } from 'vue'
 
 <style>
 .a-icon {
-  @apply inline-block w-4 h-4 lg:w-6 lg:h-6;
+  @apply inline-block w-4 h-4 xl:w-6 xl:h-6;
 }
 </style>
