@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <component class="a-heading" :is="headingLevel || 'h1'">
+  <component class="a-heading" :is="'h' + headingLevel || 'h1'">
     <slot></slot>
   </component>
 </template>

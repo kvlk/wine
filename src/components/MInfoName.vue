@@ -8,7 +8,7 @@ import MRating from './MRating.vue'
 
 <template>
   <div class="m-info-name">
-    <AHeading heading-level="h3">
+    <AHeading heading-level="3">
       Chateau de la Turmeliere, Muscadet Sevre et Maine Sur Lie AOP, 2020
     </AHeading>
     <MRating />

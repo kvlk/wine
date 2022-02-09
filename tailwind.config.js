@@ -15,6 +15,7 @@ module.exports = {
       },
       height: {
         '150': '37.5rem',
+        'w-screen': '100vw',
       },
       minWidth: {
         // w: (w) => {

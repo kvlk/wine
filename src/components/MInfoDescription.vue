@@ -7,7 +7,7 @@ import AHeading from './AHeading.vue'
 
 <template>
   <div class="m-info-description">    
-    <AHeading heading-level="h6">
+    <AHeading heading-level="6">
       <small>О товаре</small>
     </AHeading>    
     <div>
