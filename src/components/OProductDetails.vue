@@ -1,7 +1,11 @@
 <script setup>
 import { ref } from 'vue'
+
 import AHeading from './AHeading.vue'
+
 import MInfoName from './MInfoName.vue'
+import MOfferBox from './MOfferBox.vue'
+import MInfoDescription from './MInfoDescription.vue'
 
 defineProps({
   title: String
@@ -12,14 +16,11 @@ defineProps({
   <div class="o-product-details">
     <!-- a-image -->
     <!-- [a-badge-sale] -->
-
-    <!-- m-offer-box -->
-
     <!-- a-badge-code -->
     <MInfoName />
+    <MInfoDescription />
+    <MOfferBox />
     <!-- m-info-name -->
-    <!-- m-info-description -->
-    <!-- a-button -->
     <!-- a-badge-icon -->
     <!-- lg:a-badge-expert -->
   </div>

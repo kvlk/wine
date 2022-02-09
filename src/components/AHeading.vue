@@ -18,16 +18,16 @@ defineProps({
 
   @at-root {
     h1#{&} {
-      @apply text-5xl;
+      @apply text-3xl lg:text-4xl;
     }
     h2#{&} {
-      @apply text-4xl;
+      @apply text-2xl lg:text-3xl;
     }
     h3#{&} {
-      @apply text-lg lg:text-2xl xl:text-3xl-28;
+      @apply text-lg lg:text-2xl xl:text-3xl;
     }
     h4#{&} {
-      @apply text-2xl;
+      @apply text-lg lg:text-xl xl:text-2xl;
     }
     h5#{&} {
       @apply text-lg;

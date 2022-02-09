@@ -1,6 +1,8 @@
 <script setup>
 import { ref } from 'vue'
+
 import AHeading from './AHeading.vue'
+
 import MRating from './MRating.vue'
 </script>
 

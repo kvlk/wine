@@ -8,19 +8,46 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        '3xl-28': '28px',
-      }
+        'xl': '22px',
+        '2xl': '24px',
+        '3xl': '28px',
+        '4xl': '32px',
+      },
+      height: {
+        '150': '37.5rem',
+      },
+      minWidth: {
+        // w: (w) => {
+        //   return !isNaN(w) 
+        //     ? w / 4 + 'rem'
+        //     : w
+        // },
+        '16': '4rem',
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      },
+      boxShadow: {
+        'xs': '0 4px 7px rgba(0, 0, 0, 0.05)',
+      },
     },
     screens: {
       // min-width
       'xs': '320px',
+      'sm': '360px',
+      'md': '633px',
       'lg': '1024px',
       'xl': '1200px',
       '2xl': '1473px',
     },
     colors: {
+      current: 'currentColor',
+      'black': colors.black,
+      'white': colors.white,
       'primary': colors.red,
       'red': {
+        50: '#fbedef',
+        100: '#f7d1d5',
         400: '#df6760',
         500: '#e35b4b',
         900: '#a73c31',

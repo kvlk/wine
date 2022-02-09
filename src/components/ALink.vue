@@ -10,6 +10,6 @@ import { ref } from 'vue'
 
 <style>
 .a-link {
-  @apply border-b border-blue-50 text-sm lg:text-base text-blue-400 hover:text-blue-600;
+  @apply border-b border-blue-50 text-sm lg:text-base text-blue-400 hover:text-blue-600 focus:text-blue-600;
 }
 </style>
