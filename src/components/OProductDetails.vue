@@ -36,22 +36,22 @@ import MInfoDescription from './MInfoDescription.vue'
 
 <style lang="scss">
 .o-product-details {
-  @apply flex flex-col lg:grid lg:grid-cols-12 lg:px-7 pb-10 pt-0 lg:pt-10 bg-gray-100 lg:bg-transparent;
+  @apply flex flex-col lg:grid lg:grid-cols-12 lg:grid-rows-none lg:px-7 pb-10 pt-0 lg:pt-10 bg-gray-100 lg:bg-transparent;
 
   .a-image {
     @apply lg:col-start-1 lg:col-end-8 lg:row-start-1 lg:row-end-6 xl:col-start-1 xl:col-end-6; 
   }
   .m-info-name {
-    @apply lg:col-start-8 lg:col-end-13 xl:col-start-6 xl:col-end-10 lg:ml-10 xl:ml-8 xl:mr-6;
+    @apply flex flex-col order-1 lg:col-start-8 lg:col-end-13 xl:col-start-6 xl:col-end-10 lg:ml-10 xl:ml-8 xl:mr-6;
   }
   .m-info-description {
-    @apply lg:col-start-8 lg:col-end-13 xl:col-start-6 xl:col-end-10 xl:row-start-2 lg:ml-10 xl:ml-8 xl:mr-6;
+    @apply order-4 lg:col-start-8 lg:col-end-13 xl:col-start-6 xl:col-end-10 xl:row-start-2 lg:ml-10 xl:ml-8 xl:mr-6;
   }
   .m-offer-box {
-    @apply lg:col-start-8 lg:col-end-13 xl:col-start-10 xl:col-end-13 lg:ml-10;
+    @apply flex flex-col order-3 lg:col-start-8 lg:col-end-13 xl:col-start-10 xl:col-end-13 lg:ml-10;
   }
   .a-badge-code {
-    @apply lg:col-start-8 lg:col-end-13 xl:col-start-10 xl:col-end-13 xl:row-start-1 xl:items-start lg:ml-10;
+    @apply order-2 lg:col-start-8 lg:col-end-13 xl:col-start-10 xl:col-end-13 xl:row-start-1 xl:items-start lg:ml-10;
   }
 }
 </style>
