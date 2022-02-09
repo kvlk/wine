@@ -2,8 +2,7 @@
 import { ref } from 'vue'
 
 import AHeading from './AHeading.vue'
-
-import MRating from './MRating.vue'
+import ARating from './ARating.vue'
 </script>
 
 <template>
@@ -11,12 +10,12 @@ import MRating from './MRating.vue'
     <AHeading heading-level="3">
       Chateau de la Turmeliere, Muscadet Sevre et Maine Sur Lie AOP, 2020
     </AHeading>
-    <MRating />
+    <ARating />
   </div>
 </template>
 
 <style>
 .m-info-name {
-  @apply space-y-1.5 lg:space-y-2 pt-5 px-4 lg:p-0 xl:space-y-2.5 lg:mb-4 bg-white lg:bg-transparent;
+  @apply space-y-1.5 lg:space-y-2 pt-5 px-4 lg:p-0 lg:mb-8 xl:space-y-2.5 bg-white lg:bg-transparent;
 }
 </style>
