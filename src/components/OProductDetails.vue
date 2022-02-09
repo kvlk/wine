@@ -36,7 +36,6 @@ import MInfoDescription from './MInfoDescription.vue'
 
 <style lang="scss">
 .o-product-details {
-  /* @apply flex flex-col lg:px-7 pb-10 pt-0 lg:pt-10 bg-gray-100 lg:bg-transparent; */
   @apply flex flex-col lg:grid lg:grid-cols-12 lg:px-7 pb-10 pt-0 lg:pt-10 bg-gray-100 lg:bg-transparent;
 
   .a-image {
