@@ -77,4 +77,7 @@ module.exports = {
     },
   },
   plugins: [],
+  publicPath: process.env.NODE_ENV === 'production' 
+    ? '/wine/'
+    : '/'
 }
