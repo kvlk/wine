@@ -17,6 +17,6 @@ import MRating from './MRating.vue'
 
 <style>
 .m-info-name {
-  @apply space-y-1.5 lg:space-y-2 xl:space-y-2.5 mb-4;
+  @apply space-y-1.5 lg:space-y-2 pt-5 px-4 lg:p-0 xl:space-y-2.5 lg:mb-4 bg-white lg:bg-transparent;
 }
 </style>

@@ -27,10 +27,10 @@ import MMedia from './MMedia.vue'
 
 <style lang="scss">
 .m-offer-box {
-  @apply space-y-6 lg:p-6 lg:rounded-4xl lg:bg-gray-50 lg:shadow-xs;
+  @apply space-y-6 p-4 lg:p-6 rounded-b-lg lg:rounded-4xl bg-white lg:bg-gray-50 lg:shadow-xs;
 
   .a-price {
-    @apply block -mb-1;
+    @apply block -mt-1 lg:-mb-1;
   }
 
   .a-button {
