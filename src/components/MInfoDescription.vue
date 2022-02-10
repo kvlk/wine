@@ -10,8 +10,8 @@ import ABorder from './ABorder.vue'
 </script>
 
 <template>
-  <div class="m-info-description">    
-    <AHeading heading-level="6">
+  <div class="m-info-description">
+    <AHeading heading-level="6" v-if="$grid.lg && !$grid.xl">
       <small>О товаре</small>
     </AHeading>    
     <div>
@@ -45,12 +45,8 @@ import ABorder from './ABorder.vue'
   </div>
 </template>
 
-<style lang="scss">
+<style>
 .m-info-description {
   @apply space-y-4 px-4 py-5 mt-2 lg:mt-0 lg:px-0 lg:py-0 rounded-lg lg:rounded-none text-sm lg:text-base bg-white lg:bg-transparent;
-
-  .a-heading {
-    @apply xs:sr-only lg:not-sr-only xl:sr-only; 
-  }
 }
 </style>

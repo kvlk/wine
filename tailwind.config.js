@@ -18,11 +18,6 @@ module.exports = {
         'w-screen': '100vw',
       },
       minWidth: {
-        // w: (w) => {
-        //   return !isNaN(w) 
-        //     ? w / 4 + 'rem'
-        //     : w
-        // },
         '16': '4rem',
       },
       borderRadius: {
@@ -77,7 +72,4 @@ module.exports = {
     },
   },
   plugins: [],
-  publicPath: process.env.NODE_ENV === 'production' 
-    ? '/wine/'
-    : '/'
 }
