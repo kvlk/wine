@@ -1,9 +1,13 @@
 <script setup>
 import { ref } from 'vue'
+
+defineProps({
+  linkElement: Element
+})
 </script>
 
 <template>
-  <component class="a-link" :is="'a'" :href="this.href || '#'">
+  <component class="a-link" :is="linkElement || 'a'">
     <slot></slot>
   </component>
 </template>

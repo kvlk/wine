@@ -14,10 +14,10 @@ import MMedia from './MMedia.vue'
       <del>2 990 ₽</del>
     </APrice>
     <div class="m-offer-box-buttons">
-      <AButton button-element="button" class="a-button-primary">
+      <AButton button-element="button" type="button" class="a-button-primary">
         Добавить в корзину
       </AButton>
-      <AButton class="a-button-outline">
+      <AButton button-element="button" type="button" class="a-button-outline">
         Добавить в список
       </AButton>
     </div>
