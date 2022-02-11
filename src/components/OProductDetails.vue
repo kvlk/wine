@@ -37,28 +37,28 @@ import MInfoDescription from './MInfoDescription.vue'
 
   .a-image {
     @apply 
-      lg:col-start-1 lg:col-end-8 lg:row-start-1 lg:row-end-6 
+      lg:col-start-1 lg:col-end-8 lg:row-start-2 lg:row-end-5 
       xl:col-start-1 xl:col-end-6; 
   }
   .m-info-name {
     @apply 
       flex flex-col order-1 lg:block 
       lg:col-start-8 lg:col-end-13 
-      xl:col-start-6 xl:col-end-10 
+      xl:col-start-6 xl:col-end-10 xl:row-start-2 
       lg:ml-10 xl:ml-8 xl:mr-6;
   }
   .m-info-description {
     @apply 
       order-4 
       lg:col-start-8 lg:col-end-13 
-      xl:col-start-6 xl:col-end-10 xl:row-start-2 
+      xl:col-start-6 xl:col-end-10 xl:row-start-3 
       lg:ml-10 xl:ml-8 xl:mr-6;
   }
   .m-offer-box {
     @apply 
       flex flex-col order-3 xl:block
       lg:col-start-8 lg:col-end-13 
-      xl:col-start-10 xl:col-end-13 
+      xl:col-start-10 xl:col-end-13 xl:row-start-2 xl:row-end-5 
       lg:ml-10 xl:mb-auto;
   }
   .a-badge-code {
