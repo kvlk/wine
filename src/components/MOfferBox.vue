@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 import APrice from './APrice.vue'
 import AButton from './AButton.vue'
+import ABadgeCode from './ABadgeCode.vue'
 
 import MMedia from './MMedia.vue'
 </script>
@@ -13,6 +14,9 @@ import MMedia from './MMedia.vue'
       <ins>1 890 ₽</ins>
       <del>2 990 ₽</del>
     </APrice>
+
+    <ABadgeCode codeNumber="876241" v-if="!$grid.lg" />
+
     <div class="m-offer-box-buttons">
       <AButton button-element="button" type="button" class="a-button-primary">
         Добавить в корзину
@@ -27,7 +31,12 @@ import MMedia from './MMedia.vue'
 
 <style lang="scss">
 .m-offer-box {
-  @apply space-y-6 lg:mb-7 p-4 lg:p-6 rounded-b-lg lg:rounded-4xl bg-white lg:bg-gray-50 lg:shadow-xs;
+  @apply 
+    space-y-6 
+    lg:mb-7
+    p-4 lg:p-6 
+    rounded-b-lg lg:rounded-4xl 
+    bg-white lg:bg-gray-50 lg:shadow-xs;
 
   .a-price {
     @apply block -mt-1 lg:-mb-1;

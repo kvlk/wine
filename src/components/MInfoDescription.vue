@@ -11,11 +11,11 @@ import ABorder from './ABorder.vue'
 
 <template>
   <div class="m-info-description">
-    <AHeading heading-level="6" v-if="$grid.lg && !$grid.xl">
-      <small>О товаре</small>
+    <AHeading :heading-level="$grid.lg ? 7 : 2" v-if="!$grid.xl">
+      О товаре
     </AHeading>    
     <div>
-      <p>Белое сухое вино, изготовленное из винограда сорта Мелонь де Бургонь, который произрастает на виноградниках в апелласьоне Мюскаде Севр э&nbsp;Мен. Сбор урожая проводится только по достижении ягодами оптимальной зрелости.</p>
+      <p>Белое сухое вино, изготовленное из винограда сорта Мелонь де Бургонь, который произрастает на виноградниках в апелласьоне Мюскаде Севр&nbsp;э&nbsp;Мен. Сбор урожая проводится только по достижении ягодами оптимальной зрелости.</p>
     </div>
     <AButton class="a-button-outline">
       Развернуть
@@ -33,8 +33,8 @@ import ABorder from './ABorder.vue'
 
       <ABorder />
 
-      <AHeading heading-level="6">
-        <small>Тип вина</small>
+      <AHeading heading-level="7">
+        Тип вина
       </AHeading>
       <ABadge class="a-badge-expert">
         <span class="a-badge-expert-label-extended">Wine</span>

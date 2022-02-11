@@ -5,6 +5,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   base: process.env.NODE_ENV === 'production'
-    ? 'https://kvlk.github.io/wine/' // prod
-    : '/', // dev
+    ? 'https://kvlk.github.io/wine/'
+    : '/',
 })

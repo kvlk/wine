@@ -29,7 +29,7 @@ import ALink from './ALink.vue'
 
 <style lang="scss">
 .m-rating {
-  @apply flex items-center gap-x-2 xs:mt-0 text-gray-500;
+  @apply flex items-center gap-x-2 text-gray-500;
 }
 .m-rating-stars {
   @apply inline-flex gap-x-1;

@@ -16,6 +16,10 @@ import ARating from './ARating.vue'
 
 <style>
 .m-info-name {
-  @apply space-y-1.5 lg:space-y-2 pt-5 px-4 lg:p-0 lg:mb-8 xl:space-y-2.5 bg-white lg:bg-transparent;
+  @apply 
+    space-y-1.5 lg:space-y-2 xl:space-y-2.5
+    pt-5 px-4 lg:p-0 
+    lg:mb-8 
+    bg-white lg:bg-transparent;
 }
 </style>

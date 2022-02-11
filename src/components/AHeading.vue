@@ -7,8 +7,12 @@ defineProps({
 </script>
 
 <template>
-  <component class="a-heading" :is="'h' + headingLevel || 'h1'">
-    <slot></slot>
+  <component class="a-heading" 
+    :is="(headingLevel > 6 ? 'h6' : 'h' + headingLevel) || 'h1'">
+    <slot v-if="headingLevel <= 6"></slot>
+    <small v-else>
+      <slot></slot>
+    </small>
   </component>
 </template>
 
@@ -18,13 +22,17 @@ defineProps({
 
   @at-root {
     h1#{&} {
-      @apply text-3xl lg:text-4xl;
+      @apply text-2xl lg:text-3xl xl:text-4xl;
     }
     h2#{&} {
-      @apply text-2xl lg:text-3xl;
+      @apply 
+        text-xl lg:text-2xl xl:text-3xl 
+        leading-6 lg:leading-7 xl:leading-9;
     }
     h3#{&} {
-      @apply text-lg lg:text-2xl xl:text-3xl;
+      @apply 
+        text-lg lg:text-2xl xl:text-3xl 
+        leading-6 lg:leading-7 xl:leading-9;
     }
     h4#{&} {
       @apply text-lg lg:text-xl xl:text-2xl;

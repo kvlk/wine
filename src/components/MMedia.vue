@@ -8,7 +8,7 @@ import ABorder from './ABorder.vue'
 
 <template>
   <div class="m-media">
-    <ABorder />
+    <ABorder v-if="!$grid.lg" />
     <div class="m-media-wrapper">
       <ALink link-element="button" type="button">
         <AIcon>
@@ -35,10 +35,6 @@ import ABorder from './ABorder.vue'
 <style lang="scss">
 .m-media {
   @apply space-y-4;
-
-  .a-border {
-    @apply lg:hidden;
-  }
 
   .a-link {
     @apply inline-flex items-center space-x-2 text-gray-500 border-b-0;
