@@ -31,6 +31,7 @@ import MInfoDescription from './MInfoDescription.vue'
 <style lang="scss">
 .o-product-details {
   @apply 
+    xl:container xl:mx-auto
     flex flex-col lg:grid lg:grid-cols-12 lg:grid-rows-none 
     lg:px-7 pb-10 pt-0 lg:pt-10 
     bg-gray-100 lg:bg-transparent;
